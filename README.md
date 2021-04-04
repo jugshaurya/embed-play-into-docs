@@ -1,8 +1,13 @@
 ## This is the repo to mimic basic required functionality of playground
 
 - add content folder with two index and two respective playground file
-- add component folder with one component file
+- add components folder with one component file
+- add containers folder as in playground
 - publish to npm
+
+### playground
+
+index.js -> App -> Root ->
 
 ## mimic-elements-docs-docasaurus
 

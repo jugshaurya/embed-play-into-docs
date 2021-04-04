@@ -6,15 +6,23 @@
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
+    "mdx.macro": "^0.2.9",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-native": "^0.64.0",
+    "react-native-elements": "^3.3.2",
+    "react-native-safe-area-context": "^3.2.0",
+    "react-native-vector-icons": "^8.1.0",
+    "react-native-web": "^0.15.5",
+    "react-native-web-linear-gradient": "^1.1.1",
     "react-scripts": "4.0.3",
+    "react-view": "^2.3.7",
     "web-vitals": "^1.0.1"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -34,5 +42,13 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.13.0",
+    "@babel/plugin-syntax-jsx": "^7.12.13",
+    "@babel/plugin-transform-react-jsx": "^7.13.12",
+    "@babel/preset-react": "^7.13.13",
+    "customize-cra": "^1.0.0",
+    "react-app-rewired": "^2.1.8"
   }
 }
