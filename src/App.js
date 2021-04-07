@@ -1,7 +1,8 @@
+import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
 
-import Containers from "./containers";
+import Containers from "./lib/containers";
 
 function App() {
   return (

@@ -11,7 +11,7 @@ import {
 
 export default ({ params }) => {
   return (
-    <React.Fragment>
+    <>
       <div>Mimic-playground</div>
       <div
         style={{
@@ -30,6 +30,6 @@ export default ({ params }) => {
       <Editor {...params.editorProps} />
       <Error {...params.errorProps} />
       <ActionButtons {...params.actions} />
-    </React.Fragment>
+    </>
   );
 };
