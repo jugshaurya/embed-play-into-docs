@@ -1,7 +1,17 @@
 {
   "name": "embed-play-into-docs",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.1.8",
+  "private": false,
+  "main": "build/index.js",
+  "module": "build/index.js",
+  "source": "src/lib/index.js",
+  "author": "Shaurya Singhal <shauryasinghal84@gmail.com>",
+  "homepage": "shhs.now.sh",
+  "license": "MIT",
+  "files": [
+    "build"
+  ],
+  "description": "Testing npm Publish: Trying to publish playgrounds: Mimic RNE Playground",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
@@ -17,6 +27,7 @@
     "react-native-web-linear-gradient": "^1.1.1",
     "react-scripts": "4.0.3",
     "react-view": "^2.3.7",
+    "rimraf": "^3.0.2",
     "web-vitals": "^1.0.1"
   },
   "scripts": {
@@ -44,11 +55,29 @@
     ]
   },
   "devDependencies": {
+    "@babel/cli": "^7.13.14",
     "@babel/plugin-proposal-class-properties": "^7.13.0",
+    "@babel/plugin-syntax-dynamic-import": "^7.8.3",
     "@babel/plugin-syntax-jsx": "^7.12.13",
     "@babel/plugin-transform-react-jsx": "^7.13.12",
+    "@babel/preset-env": "^7.13.12",
     "@babel/preset-react": "^7.13.13",
     "customize-cra": "^1.0.0",
+    "metro-react-native-babel-preset": "^0.65.2",
+    "react-app-rewire-multiple-entry": "^2.2.1",
+    "react-app-rewire-react-library": "^0.1.1",
     "react-app-rewired": "^2.1.8"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jugshaurya/embed-play-into-docs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jugshaurya/embed-play-into-docs/issues"
+  },
+  "keywords": [
+    "react native",
+    "rne-playground",
+    "react"
+  ]
 }

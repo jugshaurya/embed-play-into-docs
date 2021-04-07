@@ -9,6 +9,20 @@
 
 index.js -> App -> Root ->
 
+### make Publishable
+
+- [x] add prettier husky
+- [ ] add eslint
+- [ ] export all playgrounds from content/index.js = entry point of library.
+
+  - write a script to import all the playgrounds from content directory and export them out automatically into lib folder(copy content.jsx to lib.jsx)
+
+  - publish lib folder onto npm.
+
+## Stretch
+
+- [ ] add test with jest and react-testing library
+
 ## mimic-elements-docs-docasaurus
 
 - mimic elements folder here
