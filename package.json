@@ -1,6 +1,6 @@
 {
   "name": "embed-play-into-docs",
-  "version": "1.1.8",
+  "version": "1.1.9",
   "private": false,
   "main": "lib/index.js",
   "module": "lib/index.js",
@@ -9,7 +9,7 @@
   "homepage": "shhs.now.sh",
   "license": "MIT",
   "files": [
-    "build"
+    "lib"
   ],
   "description": "Testing npm Publish: Trying to publish playgrounds: Mimic RNE Playground",
   "dependencies": {
@@ -81,10 +81,3 @@
     "react"
   ]
 }
-
-
-
-
-// "babel-plugin-transform-react-remove-prop-types"
-// "@babel-plugin-transform-react-inline-elements"
-// "@babel-plugin-transform-react-constant-elements"
