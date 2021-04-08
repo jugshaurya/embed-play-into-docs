@@ -1,4 +1,4 @@
-## https://www.npmjs.com/package/embed-play-into-docs
+## embed-play-into-docs
 
 - Using only two components here
   - Avatar Playground
@@ -14,8 +14,11 @@ export default {
   AvatarPlayground,
   CardPlayground,
 };
-
 ```
+
+## Peek a boo!
+
+![Gif](./demoModal.gif)
 
 ### This is the repo to mimic basic required functionality of playground
 
