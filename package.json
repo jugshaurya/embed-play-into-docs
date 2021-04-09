@@ -1,9 +1,9 @@
 {
   "name": "embed-play-into-docs",
-  "version": "1.1.10",
+  "version": "1.1.11",
   "private": false,
-  "main": "lib/index.js",
-  "module": "lib/index.js",
+  "main": "build/lib/index.js",
+  "module": "build/lib/index.js",
   "source": "src/lib/index.js",
   "author": "Shaurya Singhal <shauryasinghal84@gmail.com>",
   "homepage": "shhs.now.sh",
@@ -18,6 +18,7 @@
     "@testing-library/user-event": "^12.1.10",
     "mdx.macro": "^0.2.9",
     "react": "^17.0.2",
+    "react-app-rewire-create-react-library": "^0.1.1",
     "react-dom": "^17.0.2",
     "react-native": "^0.64.0",
     "react-native-elements": "^3.3.2",
@@ -32,7 +33,7 @@
   },
   "scripts": {
     "start": "react-app-rewired start",
-    "build": "react-app-rewired build",
+    "build": "react-app-rewired build --library",
     "test": "react-app-rewired test",
     "eject": "react-scripts eject"
   },
